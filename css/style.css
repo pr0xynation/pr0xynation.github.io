@@ -25,6 +25,7 @@ margin-top: 21px;
 margin-top: 20px;
 }
 .header-button {
+display: inline-block;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
 background-color: #ffffff;
@@ -33,6 +34,10 @@ font-weight: 700;
 font-size: 18px;
 padding: 17px 55px;
 margin-top: 33px;
+}
+.header-button a {
+color: #072b6f;
+text-decoration: none;
 }
 header small {
 font-size: 12px;
@@ -112,6 +117,10 @@ margin: 0px 15px;
 }
 .footer-cta-block {
 text-align: center;
+}
+.footer-cta-block a {
+text-decoration: none;
+color: #fff;
 }
 .footer-cta {
 margin-bottom: 13px;
